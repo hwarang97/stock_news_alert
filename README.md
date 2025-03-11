@@ -10,7 +10,7 @@ STOCK = "TSLA"  -> Chage stock that you want to see
 
 ## Set threshold
 ```python
-THRESHOLD = 0.05
+THRESHOLD = 5
 ```
 
 ## Set your .env file
