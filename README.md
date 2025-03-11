@@ -1,8 +1,16 @@
+# Description
+A program that sends alerts when a stock's closing price fluctuates beyond a predefined threshold. For example, if the closing price differs by more than 5% compared to the previous day's closing price, the program automatically sends an email notification. The email also includes three related news articles about the stock for additional context.
+
 # How to Use
 
 ## Change stock
 ```
 STOCK = "TSLA"  -> Chage stock that you want to see
+```
+
+## Set threshold
+```python
+THRESHOLD = 0.05
 ```
 
 ## Set your .env file
