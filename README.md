@@ -20,3 +20,5 @@ GOOGLE_RECEIVER=                   # Where you want to receive email
 - Polygon.io 
 - Google SMTP Server 
 
+# How to Work
+![image](https://github.com/user-attachments/assets/3e5473f3-011f-48d0-91df-420ab75e7020)
