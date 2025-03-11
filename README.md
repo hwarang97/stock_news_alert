@@ -15,7 +15,6 @@ THRESHOLD = 5
 
 ## Set your .env file
 ```
-ALPHA_VANTAGE_API_KEY=
 NEWS_API_KEY= 
 POLYGON_API_KEY=
 GOOGLE_SENDER=                     # Google send email
