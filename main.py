@@ -13,6 +13,7 @@ load_dotenv()
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
+THRESHOLD = 0.05
 
 # DATE AUTO
 yesterday = date.today() - timedelta(days=2)
@@ -68,7 +69,7 @@ except TypeError as e:
     sys.exit(1)
 
 # bound
-if abs(difference) >= 0.05:
+if abs(difference) >= THRESHOLD:
     all_articles = newsapi.get_everything(
         q="tesla", language="en", page_size=NUM_ARTICLE, page=1
     )
