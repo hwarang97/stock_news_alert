@@ -13,7 +13,7 @@ load_dotenv()
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-THRESHOLD = 0.05
+THRESHOLD = 5
 
 # DATE AUTO
 yesterday = date.today() - timedelta(days=2)
